@@ -45,10 +45,7 @@ public class sample {
                     chrInput = 'X';
 
                 boolean blnInputError = false;
-                if (!(rowPos >= Integer.MIN_VALUE && rowPos <= Integer.MAX_VALUE)) {
-                    System.out.println("You should enter numbers!");
-                    blnInputError = true;
-                } else if (rowPos < 1 || rowPos > 3 || colPos < 1 || colPos > 3) {
+                if (rowPos < 1 || rowPos > 3 || colPos < 1 || colPos > 3) {
                     System.out.println("Coordinates should be from 1 to 3!");
                     blnInputError = true;
                 } else if (chMatrix[rowPos - 1][colPos - 1] != ' ') {
