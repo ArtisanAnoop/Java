@@ -5,6 +5,8 @@ Ends the game when someone wins or there is a draw.
 Good Luck!
 
 Example:
+
+```
 ---------
 |       |
 |       |
@@ -57,3 +59,4 @@ Coordinates should be from 1 to 3!
 | X X X |
 ---------
 X wins
+```
